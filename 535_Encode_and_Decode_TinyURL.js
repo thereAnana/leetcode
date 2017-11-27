@@ -69,9 +69,3 @@ var decode = function(shortUrl) {
 * @param {string} shortUrl
 * @return {string}
 */
-
-
-/**
-* Your functions will be called as such:
-* decode(encode(url));
-*/
