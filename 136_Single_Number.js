@@ -2,6 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
+//beats 0.21% QAQ
 var singleNumber = function(nums) {
     while( nums.length>0 ){
         for(var i =1;i<nums.length;++i){
