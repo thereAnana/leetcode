@@ -9,14 +9,11 @@
  * @param {TreeNode} root
  * @return {TreeNode}
  */  
- //worong 
+ //wrong 
 // Input:[2,1,3]
 //Output:[25,26,23]
 //Expected:[5,6,3]
 // let curNum = 0;
-// var setnum   = function (nn){
-//     curNum  = nn;
-// }
 // var convertBST = function(root) {
 //     if (!root) return;
 //     if (root.right) root.right = convertBST(root.right);
