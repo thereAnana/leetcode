@@ -17,7 +17,7 @@ function convertToArray(root){
     if(root == null) return [];
     else {
         var list = convertToArray(root.left);
-        lisr.push(root.val);
+        list.push(root.val);
         Array.prototype.push.apply(list, convertToArray(root.right));
         return list;
     }
